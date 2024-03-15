@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="logo">
+      <img src="img/logo.jpg" alt="" />
+    </header>
+
+    <main class="contenedor">
+      <section class="lado_izquierdo">
+        
+          <textarea
+            name="encriptador"
+            id="texto-enctriptar"
+            class="texto_encriptar"
+            placeholder="Ingresa el Texto"
+            required
+            autofocus
+          ></textarea>
+          <div class="btn">
+            <button class="btn_encrpitar">Encriptar</button>
+            <button class="btn_desencriptar">Desencriptar</button>
+          </div>
+        
+      </section>
+
+      <section class="lado_derecho">
+        <textarea name="mensaje" id="mensaje"></textarea>
+        <div class="btn">
+          <button class="btn_copiar">Copiar</button>
+        </div>
+      </section>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
